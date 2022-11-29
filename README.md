@@ -1,4 +1,4 @@
-# GO Ethereum Event Subscribe
+# Go Ethereum Event Subscribe
 
 > Methods to subscribe on events with go-ethereum
 
@@ -8,7 +8,7 @@
 - Copy the abi from Etherscan to the folder `ABIs` in a `.abi` file
 - Compile the abi with `abigen` CLI
 ```sh
-abigen --abi=./ABIs/AccessControlledOffchainAggregator.abi --pkg=abis --out=./abis/AccessControlledOffchainAggregator.go
+abigen --abi=./abis/AccessControlledOffchainAggregator.abi --pkg=abis --out=./abis/AccessControlledOffchainAggregator.go
 ```
 
 change the smart contract in `main.go`
